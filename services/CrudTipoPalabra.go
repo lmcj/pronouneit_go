@@ -66,3 +66,22 @@ func DeleteTipoPalabra(db *gorm.DB, id uint) (string, bool) {
 	log.Println("Tipo de palabra eliminado exitosamente...")
 	return "Tipo de palabra eliminado exitosamente...", true
 }
+
+func CreateTiposPalabras(db *gorm.DB, tiposPalabras []models.TipoPalabra) ([]string, bool) {
+	var messages []string
+	success := true
+
+	for _, tipoPalabra := range tiposPalabras {
+		tipoPalabraCreate := db.Create(&tipoPalabra)
+		if tipoPalabraCreate.Error != nil {
+			log.Printf("Error al crear el nivel")
+			messages = append(messages, "Error al crear el nivel ")
+			success = false
+		} else {
+			log.Printf("Nivel creado exitosamente")
+			messages = append(messages, "Tipo de palabra creado exitosamente")
+		}
+	}
+
+	return messages, success
+}

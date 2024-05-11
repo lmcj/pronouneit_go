@@ -14,4 +14,6 @@ func RoutesEjercicio(e *gin.Engine) {
 	ejercicio.PUT("/actualizar/:id", middleware.AdminAuthMiddleware(), controllers.UpdateEjercicio)
 	ejercicio.DELETE("/eliminar/:id", middleware.AdminAuthMiddleware(), controllers.DeleteEjercicio)
 	ejercicio.GET("/por-nivel/:id", middleware.AdminAuthMiddleware(), controllers.GetEjerciciosPorNivel)
+	ejercicio.POST("/crear-ejercicios", controllers.CreateEjercicios)
+
 }

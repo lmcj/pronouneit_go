@@ -1,42 +1,42 @@
 [
     {
-        "nivel": "1",
-        "description": "Sonidos Iniciales"
+        "nivel": 1,
+        "descripcion": "Sonidos Iniciales"
     },
     {
-        "nivel": "2",
-        "description": "Sonidos Medios"
+        "nivel": 2,
+        "descripcion": "Sonidos Medios"
     },
     {
-        "nivel": "3",
-        "description": "Sonidos Finales"
+        "nivel": 3,
+        "descripcion": "Sonidos Finales"
     },
     {
-        "nivel": "4",
-        "description": "Sonidos Consonánticos"
+        "nivel": 4,
+        "descripcion": "Sonidos Consonánticos"
     },
     {
-        "nivel": "5",
-        "description": "Vocabulario Avanzado"
+        "nivel": 5,
+        "descripcion": "Vocabulario Avanzado"
     },
     {
-        "nivel": "6",
-        "description": "Entonación y Ritmo"
+        "nivel": 6,
+        "descripcion": "Entonación y Ritmo"
     },
     {
-        "nivel": "7",
-        "description": "Expresión Emocional"
+        "nivel": 7,
+        "descripcion": "Expresión Emocional"
     },
     {
-        "nivel": "8",
-        "description": "Consonantes y Vocales Específicas"
+        "nivel": 8,
+        "descripcion": "Consonantes y Vocales Específicas"
     },
     {
-        "nivel": "9",
-        "description": "Diferenciación de Sonidos"
+        "nivel": 9,
+        "descripcion": "Diferenciación de Sonidos"
     },
     {
-        "nivel": "10",
-        "description": "Dominio de la Pronunciación"
+        "nivel": 10,
+        "descripcion": "Dominio de la Pronunciación"
     }
 ]

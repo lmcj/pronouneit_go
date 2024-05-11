@@ -116,3 +116,22 @@ func GetNivelMaximo(c *gin.Context) {
 
 	c.JSON(200, gin.H{"nivel_maximo": nivelMaximo})
 }
+
+func CreateNiveles(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	var niveles []models.Nivel
+
+	if err := c.BindJSON(&niveles); err != nil {
+		c.String(400, "Bad request")
+		return
+	}
+
+	messages, success := services.CreateNiveles(database, niveles)
+	if !success {
+		c.String(400, "Error al crear los niveles")
+		return
+	}
+
+	c.JSON(200, gin.H{"messages": messages})
+}

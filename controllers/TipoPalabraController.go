@@ -104,3 +104,22 @@ func DeleteTipoPalabra(c *gin.Context) {
 	}
 	c.String(200, message)
 }
+
+func CreateTiposPalabras(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	var tiposPalabras []models.TipoPalabra
+
+	if err := c.BindJSON(&tiposPalabras); err != nil {
+		c.String(400, "Bad request")
+		return
+	}
+
+	messages, success := services.CreateTiposPalabras(database, tiposPalabras)
+	if !success {
+		c.String(400, "Error al crear los tipos de palabras")
+		return
+	}
+
+	c.JSON(200, gin.H{"messages": messages})
+}

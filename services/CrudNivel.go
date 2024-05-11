@@ -2,6 +2,7 @@ package services
 
 import (
 	"log"
+	"strconv"
 
 	"github.com/lmcj/pronouneit_go.git/models"
 	"gorm.io/gorm"
@@ -77,4 +78,23 @@ func GetNivelMaximo(db *gorm.DB) (int, error) {
 	}
 
 	return nivelMaximo, nil
+}
+
+func CreateNiveles(db *gorm.DB, niveles []models.Nivel) ([]string, bool) {
+	var messages []string
+	success := true
+
+	for _, nivel := range niveles {
+		nivelCreate := db.Create(&nivel)
+		if nivelCreate.Error != nil {
+			log.Printf("Error al crear el nivel %d: %s", nivel.Nivel, nivelCreate.Error)
+			messages = append(messages, "Error al crear el nivel "+strconv.Itoa(nivel.Nivel))
+			success = false
+		} else {
+			log.Printf("Nivel %d creado exitosamente", nivel.Nivel)
+			messages = append(messages, "Nivel "+strconv.Itoa(nivel.Nivel)+" creado exitosamente")
+		}
+	}
+
+	return messages, success
 }

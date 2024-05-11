@@ -14,5 +14,5 @@ func RoutesNivel(e *gin.Engine) {
 	nivel.PUT("/actualizar/:id", middleware.AdminAuthMiddleware(), controllers.UpdateNivel)
 	nivel.DELETE("/eliminar/:id", middleware.AdminAuthMiddleware(), controllers.DeleteNivel)
 	nivel.GET("/nivel/maximo", middleware.AuthMiddleware(), controllers.GetNivelMaximo)
-
+	nivel.POST("/crear-niveles", controllers.CreateNiveles)
 }

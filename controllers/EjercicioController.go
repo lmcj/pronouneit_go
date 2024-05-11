@@ -122,3 +122,22 @@ func GetEjerciciosPorNivel(c *gin.Context) {
 
 	c.JSON(200, ejercicios)
 }
+
+func CreateEjercicios(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	var ejercicios []models.Ejercicio
+
+	if err := c.BindJSON(&ejercicios); err != nil {
+		c.String(400, "Bad request")
+		return
+	}
+
+	messages, success := services.CreateEjercicios(database, ejercicios)
+	if !success {
+		c.String(400, "Error al crear los ejercicios")
+		return
+	}
+
+	c.JSON(200, gin.H{"messages": messages})
+}

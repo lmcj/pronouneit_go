@@ -77,3 +77,22 @@ func GetEjerciciosPorNivel(db *gorm.DB, nivelID uint) ([]models.Ejercicio, error
 
 	return ejercicios, nil
 }
+
+func CreateEjercicios(db *gorm.DB, ejercicios []models.Ejercicio) ([]string, bool) {
+	var messages []string
+	success := true
+
+	for _, ejercicio := range ejercicios {
+		ejercicioCreate := db.Create(&ejercicio)
+		if ejercicioCreate.Error != nil {
+			log.Printf("Error al crear el ejercicio")
+			messages = append(messages, "Error al crear el ejercicio ")
+			success = false
+		} else {
+			log.Printf("Ejercicio creado exitosamente")
+			messages = append(messages, "Ejercicio creado exitosamente")
+		}
+	}
+
+	return messages, success
+}

@@ -13,4 +13,6 @@ func RoutesTipoPalabra(e *gin.Engine) {
 	tipoPalabra.GET("/obtener/:id", middleware.AdminAuthMiddleware(), controllers.GetTipoPalabraById)
 	tipoPalabra.PUT("/actualizar/:id", middleware.AdminAuthMiddleware(), controllers.UpdateTipoPalabra)
 	tipoPalabra.DELETE("/eliminar/:id", middleware.AdminAuthMiddleware(), controllers.DeleteTipoPalabra)
+	tipoPalabra.POST("/crear-tipos-palabras", controllers.CreateTiposPalabras)
+
 }
