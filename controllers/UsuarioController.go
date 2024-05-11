@@ -28,6 +28,28 @@ func CreateUsuario(c *gin.Context) {
 	c.JSON(200, usuarioNew)
 }
 
+func CreateAdmin(c *gin.Context) {
+
+	database := configs.ConnectToDB()
+
+	var usuario models.Usuario
+
+	err := c.BindJSON(&usuario)
+	if err != nil {
+		c.String(400, "Bad request")
+		return
+	}
+
+	usuario.Rol = "admin"
+
+	usuarioNew, success := services.CreateUsuario(database, usuario)
+	if !success {
+		c.String(400, "Error")
+		return
+	}
+	c.JSON(200, usuarioNew)
+}
+
 func GetUsuarios(c *gin.Context) {
 	database := configs.ConnectToDB()
 

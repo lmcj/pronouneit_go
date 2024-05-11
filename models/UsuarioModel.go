@@ -9,6 +9,7 @@ type Usuario struct {
 	Correo      string `gorm:"size:50;not null;unique" json:"correo" validate:"required,email"`
 	Contrasenia string `gorm:"size:255;not null" json:"contrasenia"`
 	FotoURL     string `gorm:"size:255" json:"fotoURL"`
+	Rol         string `gorm:"size:50;not null" json:"rol"`
 }
 
 type UsuarioDTO struct {
@@ -17,6 +18,7 @@ type UsuarioDTO struct {
 	Apellido string `json:"apellido"`
 	Correo   string `json:"correo"`
 	FotoURL  string `json:"fotoURL"`
+	Rol      string `json:"rol"`
 	Token    string `json:"token"`
 }
 
@@ -27,6 +29,7 @@ func MapUsuarioToDTO(usuario Usuario) UsuarioDTO {
 		Apellido: usuario.Apellido,
 		Correo:   usuario.Correo,
 		FotoURL:  usuario.FotoURL,
+		Rol:      usuario.Rol,
 		Token:    "",
 	}
 }

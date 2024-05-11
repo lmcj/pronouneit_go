@@ -51,6 +51,7 @@ func GenerateToken(dto models.UsuarioDTO, secretKey string) (string, error) {
 		"id":     dto.ID,
 		"nombre": dto.Nombre,
 		"email":  dto.Correo,
+		"rol":    dto.Rol,
 		"exp":    time.Now().Add(time.Hour * 24).Unix(), // Token expiration time (e.g., 24 hours from now)
 	}
 

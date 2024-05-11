@@ -14,4 +14,5 @@ func RoutesUsuario(e *gin.Engine) {
 	usuario.DELETE("/eliminar/:id", controllers.DeleteUsuario)
 	usuario.POST("/:id/cambiar-contrasenia", controllers.CambioContrasenia)
 	usuario.GET("/obtener/:id/ejercicios-realizados", controllers.GetEjerciciosRealizadosPorUsuario)
+	usuario.POST("/crear-admin", controllers.CreateAdmin)
 }
