@@ -66,19 +66,15 @@ func GetUsuarioById(c *gin.Context) {
 }
 
 func UpdateUsuario(c *gin.Context) {
-	// Conectar a la base de datos
 	database := configs.ConnectToDB()
 
-	// Crear una variable para almacenar los datos del usuario actualizado
 	var usuario models.Usuario
 
-	// Bind JSON body al struct Usuario
 	if err := c.BindJSON(&usuario); err != nil {
 		c.String(400, "Bad request")
 		return
 	}
 
-	// Extraer el ID del usuario de la URL
 	id := c.Param("id")
 	idInt, err := strconv.Atoi(id)
 	if err != nil {
@@ -86,26 +82,22 @@ func UpdateUsuario(c *gin.Context) {
 		return
 	}
 
-	// Buscar el usuario existente por su ID en la base de datos
 	var usuarioExistente models.Usuario
 	if err := database.First(&usuarioExistente, idInt).Error; err != nil {
 		c.String(404, "User not found")
 		return
 	}
 
-	// Aplicar las actualizaciones al usuario existente
 	usuarioExistente.Nombre = usuario.Nombre
 	usuarioExistente.Apellido = usuario.Apellido
 	usuarioExistente.Correo = usuario.Correo
 
-	// Llamar al servicio para actualizar el usuario en la base de datos
 	message, success := services.UpdateUsuario(database, usuarioExistente)
 	if !success {
 		c.String(400, message)
 		return
 	}
 
-	// Responder con un mensaje de éxito
 	c.String(200, message)
 }
 
@@ -125,4 +117,43 @@ func DeleteUsuario(c *gin.Context) {
 		return
 	}
 	c.String(200, message)
+}
+
+func CambioContrasenia(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	idStr := c.Param("id")
+	id, err := strconv.ParseUint(idStr, 10, 64)
+	if err != nil {
+		c.String(400, "ID de usuario inválido")
+		return
+	}
+
+	var requestBody struct {
+		ContraseniaActual string `json:"contraseniaActual"`
+		NuevaContrasenia  string `json:"nuevaContrasenia"`
+	}
+
+	if err := c.BindJSON(&requestBody); err != nil {
+		c.String(400, "Solicitud JSON inválida")
+		return
+	}
+
+	var usuario models.Usuario
+	if err := database.First(&usuario, id).Error; err != nil {
+		c.String(404, "Usuario no encontrado")
+		return
+	}
+
+	if !services.CompararContrasenia(usuario.Contrasenia, requestBody.ContraseniaActual) {
+		c.String(401, "La contraseña actual es incorrecta")
+		return
+	}
+
+	if err := services.CambiarContrasenia(database, uint(id), requestBody.NuevaContrasenia); err != nil {
+		c.String(500, "Error al actualizar la contraseña del usuario")
+		return
+	}
+
+	c.String(200, "Contraseña actualizada exitosamente")
 }

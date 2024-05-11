@@ -17,6 +17,7 @@ type UsuarioDTO struct {
 	Apellido string `json:"apellido"`
 	Correo   string `json:"correo"`
 	FotoURL  string `json:"fotoURL"`
+	Token    string `json:"token"`
 }
 
 func MapUsuarioToDTO(usuario Usuario) UsuarioDTO {
@@ -26,5 +27,11 @@ func MapUsuarioToDTO(usuario Usuario) UsuarioDTO {
 		Apellido: usuario.Apellido,
 		Correo:   usuario.Correo,
 		FotoURL:  usuario.FotoURL,
+		Token:    "",
 	}
+}
+
+type CambioContraseniaRequest struct {
+	ContraseniaActual string `json:"contraseniaActual" binding:"required"`
+	NuevaContrasenia  string `json:"nuevaContrasenia" binding:"required,min=6"`
 }
