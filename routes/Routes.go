@@ -19,5 +19,7 @@ func Init() {
 	RoutesNivel(router)
 	RoutesEjercicio(router)
 	RoutesEjercicioRealizado(router)
+	RoutesLogin(router)
+
 	router.Run(":8080")
 }
