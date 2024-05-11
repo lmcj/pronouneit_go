@@ -48,10 +48,10 @@ func Hash256(password string) string {
 func GenerateToken(dto models.UsuarioDTO, secretKey string) (string, error) {
 
 	claims := jwt.MapClaims{
-		"id":      dto.ID,
-		"nombre ": dto.Nombre,
-		"email":   dto.Correo,
-		"exp":     time.Now().Add(time.Hour * 24).Unix(), // Token expiration time (e.g., 24 hours from now)
+		"id":     dto.ID,
+		"nombre": dto.Nombre,
+		"email":  dto.Correo,
+		"exp":    time.Now().Add(time.Hour * 24).Unix(), // Token expiration time (e.g., 24 hours from now)
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
