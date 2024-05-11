@@ -1,0 +1,42 @@
+[
+    {
+        "nivel": "1",
+        "description": "Sonidos Iniciales"
+    },
+    {
+        "nivel": "2",
+        "description": "Sonidos Medios"
+    },
+    {
+        "nivel": "3",
+        "description": "Sonidos Finales"
+    },
+    {
+        "nivel": "4",
+        "description": "Sonidos Consonánticos"
+    },
+    {
+        "nivel": "5",
+        "description": "Vocabulario Avanzado"
+    },
+    {
+        "nivel": "6",
+        "description": "Entonación y Ritmo"
+    },
+    {
+        "nivel": "7",
+        "description": "Expresión Emocional"
+    },
+    {
+        "nivel": "8",
+        "description": "Consonantes y Vocales Específicas"
+    },
+    {
+        "nivel": "9",
+        "description": "Diferenciación de Sonidos"
+    },
+    {
+        "nivel": "10",
+        "description": "Dominio de la Pronunciación"
+    }
+]

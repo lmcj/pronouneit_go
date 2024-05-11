@@ -1,0 +1,458 @@
+[
+    {
+        "nombre": "Ejercicio basico 1",
+        "contenido": "Cat",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio basico 2",
+        "contenido": "Kite",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio basico 3",
+        "contenido": "Key",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Palabras Compuestas 1",
+        "contenido": "Snow",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Palabras Compuestas 2",
+        "contenido": "Smile",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Palabras Compuestas 3",
+        "contenido": "Snack",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Frases con Consonantes Iniciales 1",
+        "contenido": "Big black cat",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Frases con Consonantes Iniciales 2",
+        "contenido": "Kind king",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Frases con Consonantes Iniciales 3",
+        "contenido": "Funny fish",
+        "nivelID": 1, 
+        "tipoID": 1
+    },
+    {
+        "nombre": "Ejercicio de Diferenciación de Sonidos 1",
+        "contenido": "better",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Diferenciación de Sonidos 2",
+        "contenido": "butter",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Diferenciación de Sonidos 3",
+        "contenido": "bottle",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Grupos Consonánticos 1",
+        "contenido": "problem",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Grupos Consonánticos 2",
+        "contenido": "travel",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Grupos Consonánticos 3",
+        "contenido": "castle",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Lectura de Palabras Medianas 1",
+        "contenido": "elephant",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Lectura de Palabras Medianas 2",
+        "contenido": "computer",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Lectura de Palabras Medianas 3",
+        "contenido": "chocolate",
+        "nivelID": 2, 
+        "tipoID": 2
+    },
+    {
+        "nombre": "Ejercicio de Rimas 1",
+        "contenido": "cat hat mat",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Rimas 2",
+        "contenido": "moon spoon soon",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Rimas 3",
+        "contenido": "dog log fog",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Final Silábico 1",
+        "contenido": "jump",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Final Silábico 2",
+        "contenido": "bump",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Final Silábico 3",
+        "contenido": "lamp",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Palabras Compuestas con Terminaciones 1",
+        "contenido": "rainbow",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Palabras Compuestas con Terminaciones 2",
+        "contenido": "cowboy",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Palabras Compuestas con Terminaciones 3",
+        "contenido": "playground",
+        "nivelID": 3, 
+        "tipoID": 3
+    },
+    {
+        "nombre": "Ejercicio de Consonantes Agrupadas 1",
+        "contenido": "strength",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Consonantes Agrupadas 2",
+        "contenido": "twelfth",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Consonantes Agrupadas 3",
+        "contenido": "tsunami",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Consonantes Difíciles 1",
+        "contenido": "through",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Consonantes Difíciles 2",
+        "contenido": "wrist",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Consonantes Difíciles 3",
+        "contenido": "knock",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Consonantes Difíciles 3",
+        "contenido": "knock",
+        "nivelID": 4, 
+        "tipoID": 4
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación de Palabras Compuestas 1",
+        "contenido": "hippopotamus",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación de Palabras Compuestas 2",
+        "contenido": "extravagant",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación de Palabras Compuestas 3",
+        "contenido": "internationalization",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Términos Científicos 1",
+        "contenido": "photosynthesis",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Términos Científicos 2",
+        "contenido": "biotechnology",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Términos Científicos 3",
+        "contenido": "neuroscience",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Expresiones Idiomáticas Avanzadas 1",
+        "contenido": "breakthrough",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Expresiones Idiomáticas Avanzadas 2",
+        "contenido": "one-of-a-kind",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Expresiones Idiomáticas Avanzadas 3",
+        "contenido": "bittersweet",
+        "nivelID": 5, 
+        "tipoID": 5
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Sílabas Tónicas 1",
+        "contenido": "photographer",
+        "nivelID": 6, 
+        "tipoID": 6
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Sílabas Tónicas 2",
+        "contenido": "university",
+        "nivelID": 6, 
+        "tipoID": 6
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Sílabas Tónicas 3",
+        "contenido": "elephant",
+        "nivelID": 6, 
+        "tipoID": 6
+    },
+    {
+        "nombre": "Ejercicio de Entonación en Preguntas 1",
+        "contenido": "Are you coming?",
+        "nivelID": 6, 
+        "tipoID": 6
+    },
+    {
+        "nombre": "Ejercicio de Entonación en Preguntas 2",
+        "contenido": "Where did she go?",
+        "nivelID": 6, 
+        "tipoID": 6
+    },
+    {
+        "nombre": "Ejercicio de Entonación en Preguntas 3",
+        "contenido": "What time is it?",
+        "nivelID": 6, 
+        "tipoID": 6
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación Dramática 1",
+        "contenido": "excited",
+        "nivelID": 7, 
+        "tipoID": 7
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación Dramática 2",
+        "contenido": "frustrated",
+        "nivelID": 7, 
+        "tipoID": 7
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación Dramática 3",
+        "contenido": "surprised",
+        "nivelID": 7, 
+        "tipoID": 7
+    },
+    {
+        "nombre": "Ejercicio de Expresiones Cotidianas con Emoción 1",
+        "contenido": "delighted",
+        "nivelID": 7, 
+        "tipoID": 7
+    },
+    {
+        "nombre": "Ejercicio de Expresiones Cotidianas con Emoción 2",
+        "contenido": "disappointed",
+        "nivelID": 7, 
+        "tipoID": 7
+    },
+    {
+        "nombre": "Ejercicio de Expresiones Cotidianas con Emoción 3",
+        "contenido": "ecstatic",
+        "nivelID": 7, 
+        "tipoID": 7
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación de Consonantes Raras 1",
+        "contenido": "rhythm",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación de Consonantes Raras 2",
+        "contenido": "czar",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Pronunciación de Consonantes Raras 3",
+        "contenido": "gnome",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Vocales Extendidas 1",
+        "contenido": "boat",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Vocales Extendidas 1",
+        "contenido": "bait",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Vocales Extendidas 1",
+        "contenido": "bit",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Diptongos 1",
+        "contenido": "coin",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Diptongos 2",
+        "contenido": "loud",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Palabras con Diptongos 3",
+        "contenido": "toy",
+        "nivelID": 8, 
+        "tipoID": 8
+    },
+    {
+        "nombre": "Ejercicio de Diferenciación de Sonidos Voiced y Voiceless 1",
+        "contenido": "thin and then",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Diferenciación de Sonidos Voiced y Voiceless 2",
+        "contenido": "path and bath",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Diferenciación de Sonidos Voiced y Voiceless 3",
+        "contenido": "rice and rise",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Minimal Pairs 1",
+        "contenido": "ship and sheep",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Minimal Pairs 2",
+        "contenido": "bit and beat",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Minimal Pairs 3",
+        "contenido": "cot and caught",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Frases con Distinción de Sonidos 1",
+        "contenido": "I saw a big ship",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Frases con Distinción de Sonidos 2",
+        "contenido": "He took a quick bath",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Frases con Distinción de Sonidos 3",
+        "contenido": "She caught the ball",
+        "nivelID": 9, 
+        "tipoID": 9
+    },
+    {
+        "nombre": "Ejercicio de Palabras Polisilábicas 1",
+        "contenido": "university",
+        "nivelID": 10, 
+        "tipoID": 10
+    },
+    {
+        "nombre": "Ejercicio de Palabras Polisilábicas 2",
+        "contenido": "opportunity",
+        "nivelID": 10, 
+        "tipoID": 10
+    },
+    {
+        "nombre": "Ejercicio de Palabras Polisilábicas 3",
+        "contenido": "entrepreneurial",
+        "nivelID": 10, 
+        "tipoID": 10
+    }
+]
