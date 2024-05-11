@@ -104,3 +104,21 @@ func DeleteEjercicio(c *gin.Context) {
 	}
 	c.String(200, message)
 }
+
+func GetEjerciciosPorNivel(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	nivelID, err := strconv.ParseUint(c.Param("id"), 10, 64)
+	if err != nil {
+		c.String(400, "ID de nivel inválido")
+		return
+	}
+
+	ejercicios, err := services.GetEjerciciosPorNivel(database, uint(nivelID))
+	if err != nil {
+		c.String(500, "Error al obtener los ejercicios por nivel")
+		return
+	}
+
+	c.JSON(200, ejercicios)
+}

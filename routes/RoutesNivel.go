@@ -12,4 +12,6 @@ func RoutesNivel(e *gin.Engine) {
 	nivel.GET("/obtener/:id", controllers.GetNivelById)
 	nivel.PUT("/actualizar/:id", controllers.UpdateNivel)
 	nivel.DELETE("/eliminar/:id", controllers.DeleteNivel)
+	nivel.GET("/nivel/maximo", controllers.GetNivelMaximo)
+
 }

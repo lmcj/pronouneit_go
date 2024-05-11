@@ -104,3 +104,15 @@ func DeleteNivel(c *gin.Context) {
 	}
 	c.String(200, message)
 }
+
+func GetNivelMaximo(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	nivelMaximo, err := services.GetNivelMaximo(database)
+	if err != nil {
+		c.String(500, "Error al obtener el nivel máximo")
+		return
+	}
+
+	c.JSON(200, gin.H{"nivel_maximo": nivelMaximo})
+}

@@ -70,3 +70,14 @@ func DeleteUsuario(db *gorm.DB, id int) (string, bool) {
 	log.Println("Usuario eliminado exitosamente...")
 	return "Usuario eliminado exitosamente...", true
 }
+
+func GetEjerciciosRealizadosPorUsuario(db *gorm.DB, userID uint) ([]models.EjercicioRealizado, error) {
+	var ejerciciosRealizados []models.EjercicioRealizado
+
+	if err := db.Preload("Usuario").Preload("Ejercicio").Preload("Ejercicio.Nivel").Preload("Ejercicio.Tipo").Where("usuario_id = ?", userID).Find(&ejerciciosRealizados).Error; err != nil {
+		log.Println("Error al obtener los ejercicios realizados por el usuario:", err)
+		return nil, err
+	}
+
+	return ejerciciosRealizados, nil
+}

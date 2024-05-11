@@ -66,3 +66,15 @@ func DeleteNivel(db *gorm.DB, id uint) (string, bool) {
 	log.Println("Nivel eliminado exitosamente...")
 	return "Nivel eliminado exitosamente...", true
 }
+
+func GetNivelMaximo(db *gorm.DB) (int, error) {
+	var nivelMaximo int
+
+	result := db.Model(&models.Nivel{}).Select("MAX(nivel)").Scan(&nivelMaximo)
+	if result.Error != nil {
+		log.Println("Error al obtener el nivel máximo:", result.Error)
+		return 0, result.Error
+	}
+
+	return nivelMaximo, nil
+}

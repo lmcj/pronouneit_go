@@ -157,3 +157,21 @@ func CambioContrasenia(c *gin.Context) {
 
 	c.String(200, "Contraseña actualizada exitosamente")
 }
+
+func GetEjerciciosRealizadosPorUsuario(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	userID, err := strconv.ParseUint(c.Param("id"), 10, 64)
+	if err != nil {
+		c.String(400, "ID de usuario inválido")
+		return
+	}
+
+	ejerciciosRealizados, err := services.GetEjerciciosRealizadosPorUsuario(database, uint(userID))
+	if err != nil {
+		c.String(500, "Error al obtener los ejercicios realizados por el usuario")
+		return
+	}
+
+	c.JSON(200, ejerciciosRealizados)
+}

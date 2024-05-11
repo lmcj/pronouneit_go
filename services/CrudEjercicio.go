@@ -66,3 +66,14 @@ func DeleteEjercicio(db *gorm.DB, id uint) (string, bool) {
 	log.Println("Ejercicio eliminado exitosamente...")
 	return "Ejercicio eliminado exitosamente...", true
 }
+
+func GetEjerciciosPorNivel(db *gorm.DB, nivelID uint) ([]models.Ejercicio, error) {
+	var ejercicios []models.Ejercicio
+
+	if err := db.Preload("Nivel").Preload("Tipo").Where("nivel_id = ?", nivelID).Find(&ejercicios).Error; err != nil {
+		log.Println("Error al obtener los ejercicios por nivel:", err)
+		return nil, err
+	}
+
+	return ejercicios, nil
+}

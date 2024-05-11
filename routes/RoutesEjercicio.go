@@ -12,4 +12,5 @@ func RoutesEjercicio(e *gin.Engine) {
 	ejercicio.GET("/obtener/:id", controllers.GetEjercicioById)
 	ejercicio.PUT("/actualizar/:id", controllers.UpdateEjercicio)
 	ejercicio.DELETE("/eliminar/:id", controllers.DeleteEjercicio)
+	ejercicio.GET("/por-nivel/:id", controllers.GetEjerciciosPorNivel)
 }
