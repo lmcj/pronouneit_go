@@ -52,7 +52,7 @@ func GenerateToken(dto models.UsuarioDTO, secretKey string) (string, error) {
 		"nombre": dto.Nombre,
 		"email":  dto.Correo,
 		"rol":    dto.Rol,
-		"exp":    time.Now().Add(time.Hour * 24).Unix(), // Token expiration time (e.g., 24 hours from now)
+		"exp":    time.Now().Add(time.Hour * 24).Unix(), // Tiepo de expiracion del token 24 horas
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)

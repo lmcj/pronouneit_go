@@ -1,32 +1,11 @@
 [
     {
-        "grupo": "Palabras con Inicio Difícil"
+        "grupo": "Palabras con el sonido /ɪk/"
     },
     {
-        "grupo": "Palabras con Desafíos en el Medio"
+        "grupo": "Palabras con el sonido /eɪ/"
     },
     {
-        "grupo": "Palabras con Terminaciones Difíciles"
-    },
-    {
-        "grupo": "Palabras con Consonantes Agrupadas"
-    },
-    {
-        "grupo": "Palabras Largas y Técnicas"
-    },
-    {
-        "grupo": "Palabras con Acentos y Sílabas Tónicas"
-    },
-    {
-        "grupo": "Palabras para Transmitir Emociones"
-    },
-    {
-        "grupo": "Enfoque en Sonidos Consonánticos y Vocales"
-    },
-    {
-        "grupo": "Palabras con Sonidos Similares"
-    },
-    {
-        "grupo": "Desafíos Avanzados de Pronunciación"
+        "grupo": "Palabras con el sonido /aɪ/"
     }
 ]
