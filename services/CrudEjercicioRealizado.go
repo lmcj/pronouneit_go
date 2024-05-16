@@ -8,10 +8,30 @@ import (
 )
 
 func CreateEjercicioRealizado(db *gorm.DB, ejercicioRealizado models.EjercicioRealizado) (string, bool) {
+
+	var ejercicio models.Ejercicio
+
+	db.First(&ejercicio, ejercicioRealizado.EjercicioID)
+
+	if ejercicioRealizado.Resultado == ejercicio.Contenido {
+		ejercicioRealizado.Aprobado = true
+	}
+
 	ejercicioRealizadoCreate := db.Create(&ejercicioRealizado)
 	if ejercicioRealizadoCreate.Error != nil {
 		log.Println("Error al crear el ejercicio realizado")
 		return "Error al crear el ejercicio realizado", false
+	}
+
+	var usuario models.Usuario
+	db.First(&usuario, ejercicioRealizado.UsuarioID)
+
+	if ejercicioRealizado.Aprobado {
+		usuario.Racha++
+		db.Save(&usuario)
+	} else {
+		usuario.Racha = 0
+		db.Save(&usuario)
 	}
 
 	log.Println("Ejercicio realizado creado exitosamente...")

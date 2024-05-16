@@ -10,6 +10,7 @@ type Usuario struct {
 	Contrasenia string `gorm:"size:255;not null" json:"contrasenia"`
 	FotoURL     string `gorm:"size:255" json:"fotoURL"`
 	Rol         string `gorm:"size:50;not null" json:"rol"`
+	Racha       int    `gorm:"default:0" json:"racha"`
 }
 
 type UsuarioDTO struct {
