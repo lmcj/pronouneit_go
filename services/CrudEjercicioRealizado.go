@@ -2,6 +2,7 @@ package services
 
 import (
 	"log"
+	"strings"
 
 	"github.com/lmcj/pronouneit_go.git/models"
 	"gorm.io/gorm"
@@ -11,9 +12,18 @@ func CreateEjercicioRealizado(db *gorm.DB, ejercicioRealizado models.EjercicioRe
 
 	var ejercicio models.Ejercicio
 
+	ejercicioRealizado.Resultado = TranscribeBase64Audio(ejercicioRealizado.Resultado)
+
+	if ejercicioRealizado.Resultado == "" {
+		log.Println("Error al transcribir el audio")
+		return "Error al transcribir el audio", false
+	}
+
+	log.Println("ejercicio realizado: " + ejercicioRealizado.Resultado)
+
 	db.First(&ejercicio, ejercicioRealizado.EjercicioID)
 
-	if ejercicioRealizado.Resultado == ejercicio.Contenido {
+	if strings.EqualFold(ejercicioRealizado.Resultado, ejercicio.Contenido) {
 		ejercicioRealizado.Aprobado = true
 	}
 
