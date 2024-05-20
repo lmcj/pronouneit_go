@@ -1,813 +1,812 @@
 [
-    {
-        "nombre": "Tick",
-        "contenido": "Tick",
-        "nivelID": 1,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Kick",
-        "contenido": "Kick",
-        "nivelID": 1,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Lick",
-        "contenido": "Lick",
-        "nivelID": 1,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Pick",
-        "contenido": "Pick",
-        "nivelID": 1,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Wick",
-        "contenido": "Wick",
-        "nivelID": 1,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Brick",
-        "contenido": "Brick",
-        "nivelID": 2,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Stick",
-        "contenido": "Stick",
-        "nivelID": 2,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Thick",
-        "contenido": "Thick",
-        "nivelID": 2,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Quick",
-        "contenido": "Quick",
-        "nivelID": 2,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Flick",
-        "contenido": "Flick",
-        "nivelID": 2,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Slick",
-        "contenido": "Slick",
-        "nivelID": 3,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Click",
-        "contenido": "Click",
-        "nivelID": 3,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Trick",
-        "contenido": "Trick",
-        "nivelID": 3,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Snick",
-        "contenido": "Snick",
-        "nivelID": 3,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Crick",
-        "contenido": "Crick",
-        "nivelID": 3,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Frick",
-        "contenido": "Frick",
-        "nivelID": 4,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Stickit",
-        "contenido": "Stickit",
-        "nivelID": 4,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Thicket",
-        "contenido": "Thicket",
-        "nivelID": 4,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Pricket",
-        "contenido": "Pricket",
-        "nivelID": 4,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Bicker",
-        "contenido": "Bicker",
-        "nivelID": 4,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Snicker",
-        "contenido": "Snicker",
-        "nivelID": 5,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Frolick",
-        "contenido": "Frolick",
-        "nivelID": 5,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Mosaic",
-        "contenido": "Mosaic",
-        "nivelID": 5,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Panic",
-        "contenido": "Panic",
-        "nivelID": 5,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Attic",
-        "contenido": "Attic",
-        "nivelID": 5,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Mimic",
-        "contenido": "Mimic",
-        "nivelID": 6,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Critic",
-        "contenido": "Critic",
-        "nivelID": 6,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Static",
-        "contenido": "Static",
-        "nivelID": 6,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Picnic",
-        "contenido": "Picnic",
-        "nivelID": 6,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Music",
-        "contenido": "Music",
-        "nivelID": 6,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Dynamic",
-        "contenido": "Dynamic",
-        "nivelID": 7,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Fabric",
-        "contenido": "Fabric",
-        "nivelID": 7,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Traffic",
-        "contenido": "Traffic",
-        "nivelID": 7,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Plastic",
-        "contenido": "Plastic",
-        "nivelID": 7,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Graphic",
-        "contenido": "Graphic",
-        "nivelID": 7,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Specific",
-        "contenido": "Specific",
-        "nivelID": 8,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Acoustic",
-        "contenido": "Acoustic",
-        "nivelID": 8,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Arithmetic",
-        "contenido": "Arithmetic",
-        "nivelID": 8,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Panic-strick",
-        "contenido": "Panic-strick",
-        "nivelID": 8,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Mimicry",
-        "contenido": "Mimicry",
-        "nivelID": 8,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Analytic",
-        "contenido": "Analytic",
-        "nivelID": 9,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Enigmatic",
-        "contenido": "Enigmatic",
-        "nivelID": 9,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Symphonic",
-        "contenido": "Symphonic",
-        "nivelID": 9,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Automatic",
-        "contenido": "Automatic",
-        "nivelID": 9,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Diagnostic",
-        "contenido": "Diagnostic",
-        "nivelID": 9,
-        "tipoID": 1
-    },
-    {
-        "nombre": "Tick",
-        "contenido": "Tick",
-        "nivelID": 1,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Kick",
-        "contenido": "Kick",
-        "nivelID": 1,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Lick",
-        "contenido": "Lick",
-        "nivelID": 1,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Pick",
-        "contenido": "Pick",
-        "nivelID": 1,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Wick",
-        "contenido": "Wick",
-        "nivelID": 1,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Brick",
-        "contenido": "Brick",
-        "nivelID": 2,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Stick",
-        "contenido": "Stick",
-        "nivelID": 2,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Thick",
-        "contenido": "Thick",
-        "nivelID": 2,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Quick",
-        "contenido": "Quick",
-        "nivelID": 2,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Flick",
-        "contenido": "Flick",
-        "nivelID": 2,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Slick",
-        "contenido": "Slick",
-        "nivelID": 3,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Click",
-        "contenido": "Click",
-        "nivelID": 3,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Trick",
-        "contenido": "Trick",
-        "nivelID": 3,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Snick",
-        "contenido": "Snick",
-        "nivelID": 3,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Crick",
-        "contenido": "Crick",
-        "nivelID": 3,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Frick",
-        "contenido": "Frick",
-        "nivelID": 4,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Stickit",
-        "contenido": "Stickit",
-        "nivelID": 4,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Thicket",
-        "contenido": "Thicket",
-        "nivelID": 4,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Pricket",
-        "contenido": "Pricket",
-        "nivelID": 4,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Bicker",
-        "contenido": "Bicker",
-        "nivelID": 4,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Snicker",
-        "contenido": "Snicker",
-        "nivelID": 5,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Frolick",
-        "contenido": "Frolick",
-        "nivelID": 5,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Mosaic",
-        "contenido": "Mosaic",
-        "nivelID": 5,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Panic",
-        "contenido": "Panic",
-        "nivelID": 5,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Attic",
-        "contenido": "Attic",
-        "nivelID": 5,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Mimic",
-        "contenido": "Mimic",
-        "nivelID": 6,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Critic",
-        "contenido": "Critic",
-        "nivelID": 6,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Static",
-        "contenido": "Static",
-        "nivelID": 6,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Picnic",
-        "contenido": "Picnic",
-        "nivelID": 6,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Music",
-        "contenido": "Music",
-        "nivelID": 6,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Dynamic",
-        "contenido": "Dynamic",
-        "nivelID": 7,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Fabric",
-        "contenido": "Fabric",
-        "nivelID": 7,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Traffic",
-        "contenido": "Traffic",
-        "nivelID": 7,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Plastic",
-        "contenido": "Plastic",
-        "nivelID": 7,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Graphic",
-        "contenido": "Graphic",
-        "nivelID": 7,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Specific",
-        "contenido": "Specific",
-        "nivelID": 8,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Acoustic",
-        "contenido": "Acoustic",
-        "nivelID": 8,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Arithmetic",
-        "contenido": "Arithmetic",
-        "nivelID": 8,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Panic-strick",
-        "contenido": "Panic-strick",
-        "nivelID": 8,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Mimicry",
-        "contenido": "Mimicry",
-        "nivelID": 8,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Analytic",
-        "contenido": "Analytic",
-        "nivelID": 9,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Enigmatic",
-        "contenido": "Enigmatic",
-        "nivelID": 9,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Symphonic",
-        "contenido": "Symphonic",
-        "nivelID": 9,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Automatic",
-        "contenido": "Automatic",
-        "nivelID": 9,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Diagnostic",
-        "contenido": "Diagnostic",
-        "nivelID": 9,
-        "tipoID": 1
-      },
-      {
-        "nombre": "Cry",
-        "contenido": "Cry",
-        "nivelID": 1,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Fly",
-        "contenido": "Fly",
-        "nivelID": 1,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Dry",
-        "contenido": "Dry",
-        "nivelID": 1,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Try",
-        "contenido": "Try",
-        "nivelID": 1,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Pry",
-        "contenido": "Pry",
-        "nivelID": 1,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Shy",
-        "contenido": "Shy",
-        "nivelID": 2,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Sly",
-        "contenido": "Sly",
-        "nivelID": 2,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Fry",
-        "contenido": "Fry",
-        "nivelID": 2,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Spy",
-        "contenido": "Spy",
-        "nivelID": 2,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Sky",
-        "contenido": "Sky",
-        "nivelID": 2,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Apply",
-        "contenido": "Apply",
-        "nivelID": 3,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Deny",
-        "contenido": "Deny",
-        "nivelID": 3,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Reply",
-        "contenido": "Reply",
-        "nivelID": 3,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Comply",
-        "contenido": "Comply",
-        "nivelID": 3,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Decry",
-        "contenido": "Decry",
-        "nivelID": 3,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Modify",
-        "contenido": "Modify",
-        "nivelID": 4,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Terrify",
-        "contenido": "Terrify",
-        "nivelID": 4,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Clarify",
-        "contenido": "Clarify",
-        "nivelID": 4,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Magnify",
-        "contenido": "Magnify",
-        "nivelID": 4,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Specify",
-        "contenido": "Specify",
-        "nivelID": 4,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Multiply",
-        "contenido": "Multiply",
-        "nivelID": 5,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Testify",
-        "contenido": "Testify",
-        "nivelID": 5,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Simplify",
-        "contenido": "Simplify",
-        "nivelID": 5,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Identify",
-        "contenido": "Identify",
-        "nivelID": 5,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Amplify",
-        "contenido": "Amplify",
-        "nivelID": 5,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Intensify",
-        "contenido": "Intensify",
-        "nivelID": 6,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Justify",
-        "contenido": "Justify",
-        "nivelID": 6,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Diversify",
-        "contenido": "Diversify",
-        "nivelID": 6,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Solidify",
-        "contenido": "Solidify",
-        "nivelID": 6,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Mystify",
-        "contenido": "Mystify",
-        "nivelID": 6,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Rectify",
-        "contenido": "Rectify",
-        "nivelID": 7,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Quantify",
-        "contenido": "Quantify",
-        "nivelID": 7,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Electrify",
-        "contenido": "Electrify",
-        "nivelID": 7,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Personify",
-        "contenido": "Personify",
-        "nivelID": 7,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Classify",
-        "contenido": "Classify",
-        "nivelID": 7,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Sanctify",
-        "contenido": "Sanctify",
-        "nivelID": 8,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Amplify",
-        "contenido": "Amplify",
-        "nivelID": 8,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Falsify",
-        "contenido": "Falsify",
-        "nivelID": 8,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Beautify",
-        "contenido": "Beautify",
-        "nivelID": 8,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Modify",
-        "contenido": "Modify",
-        "nivelID": 8,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Demystify",
-        "contenido": "Demystify",
-        "nivelID": 9,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Reidentify",
-        "contenido": "Reidentify",
-        "nivelID": 9,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Oversimplify",
-        "contenido": "Oversimplify",
-        "nivelID": 9,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Disqualify",
-        "contenido": "Disqualify",
-        "nivelID": 9,
-        "tipoID": 3
-      },
-      {
-        "nombre": "Re-certify",
-        "contenido": "Re-certify",
-        "nivelID": 9,
-        "tipoID": 3
-      }
-
+  {
+    "nombre": "Tick",
+    "contenido": "Tick",
+    "nivelID": 1,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Kick",
+    "contenido": "Kick",
+    "nivelID": 1,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Lick",
+    "contenido": "Lick",
+    "nivelID": 1,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Pick",
+    "contenido": "Pick",
+    "nivelID": 1,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Wick",
+    "contenido": "Wick",
+    "nivelID": 1,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Brick",
+    "contenido": "Brick",
+    "nivelID": 2,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Stick",
+    "contenido": "Stick",
+    "nivelID": 2,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Thick",
+    "contenido": "Thick",
+    "nivelID": 2,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Quick",
+    "contenido": "Quick",
+    "nivelID": 2,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Flick",
+    "contenido": "Flick",
+    "nivelID": 2,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Slick",
+    "contenido": "Slick",
+    "nivelID": 3,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Click",
+    "contenido": "Click",
+    "nivelID": 3,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Trick",
+    "contenido": "Trick",
+    "nivelID": 3,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Snick",
+    "contenido": "Snick",
+    "nivelID": 3,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Crick",
+    "contenido": "Crick",
+    "nivelID": 3,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Frick",
+    "contenido": "Frick",
+    "nivelID": 4,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Stickit",
+    "contenido": "Stickit",
+    "nivelID": 4,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Thicket",
+    "contenido": "Thicket",
+    "nivelID": 4,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Pricket",
+    "contenido": "Pricket",
+    "nivelID": 4,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Bicker",
+    "contenido": "Bicker",
+    "nivelID": 4,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Snicker",
+    "contenido": "Snicker",
+    "nivelID": 5,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Frolick",
+    "contenido": "Frolick",
+    "nivelID": 5,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Mosaic",
+    "contenido": "Mosaic",
+    "nivelID": 5,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Panic",
+    "contenido": "Panic",
+    "nivelID": 5,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Attic",
+    "contenido": "Attic",
+    "nivelID": 5,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Mimic",
+    "contenido": "Mimic",
+    "nivelID": 6,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Critic",
+    "contenido": "Critic",
+    "nivelID": 6,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Static",
+    "contenido": "Static",
+    "nivelID": 6,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Picnic",
+    "contenido": "Picnic",
+    "nivelID": 6,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Music",
+    "contenido": "Music",
+    "nivelID": 6,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Dynamic",
+    "contenido": "Dynamic",
+    "nivelID": 7,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Fabric",
+    "contenido": "Fabric",
+    "nivelID": 7,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Traffic",
+    "contenido": "Traffic",
+    "nivelID": 7,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Plastic",
+    "contenido": "Plastic",
+    "nivelID": 7,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Graphic",
+    "contenido": "Graphic",
+    "nivelID": 7,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Specific",
+    "contenido": "Specific",
+    "nivelID": 8,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Acoustic",
+    "contenido": "Acoustic",
+    "nivelID": 8,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Arithmetic",
+    "contenido": "Arithmetic",
+    "nivelID": 8,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Panic-strick",
+    "contenido": "Panic-strick",
+    "nivelID": 8,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Mimicry",
+    "contenido": "Mimicry",
+    "nivelID": 8,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Analytic",
+    "contenido": "Analytic",
+    "nivelID": 9,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Enigmatic",
+    "contenido": "Enigmatic",
+    "nivelID": 9,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Symphonic",
+    "contenido": "Symphonic",
+    "nivelID": 9,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Automatic",
+    "contenido": "Automatic",
+    "nivelID": 9,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Diagnostic",
+    "contenido": "Diagnostic",
+    "nivelID": 9,
+    "tipoID": 1
+  },
+  {
+    "nombre": "Bake",
+    "contenido": "Bake",
+    "nivelID": 1,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Cake",
+    "contenido": "Cake",
+    "nivelID": 1,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Lake",
+    "contenido": "Lake",
+    "nivelID": 1,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Make",
+    "contenido": "Make",
+    "nivelID": 1,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Take",
+    "contenido": "Take",
+    "nivelID": 1,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Fake",
+    "contenido": "Fake",
+    "nivelID": 2,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Shake",
+    "contenido": "Shake",
+    "nivelID": 2,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Brake",
+    "contenido": "Brake",
+    "nivelID": 2,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Flake",
+    "contenido": "Flake",
+    "nivelID": 2,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Rake",
+    "contenido": "Rake",
+    "nivelID": 2,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Snake",
+    "contenido": "Snake",
+    "nivelID": 3,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Stake",
+    "contenido": "Stake",
+    "nivelID": 3,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Drake",
+    "contenido": "Drake",
+    "nivelID": 3,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Quake",
+    "contenido": "Quake",
+    "nivelID": 3,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Plague",
+    "contenido": "Plague",
+    "nivelID": 3,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Break",
+    "contenido": "Break",
+    "nivelID": 4,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Crane",
+    "contenido": "Crane",
+    "nivelID": 4,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Frame",
+    "contenido": "Frame",
+    "nivelID": 4,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Graze",
+    "contenido": "Graze",
+    "nivelID": 4,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Pale",
+    "contenido": "Pale",
+    "nivelID": 4,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Sail",
+    "contenido": "Sail",
+    "nivelID": 5,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Trail",
+    "contenido": "Trail",
+    "nivelID": 5,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Claim",
+    "contenido": "Claim",
+    "nivelID": 5,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Flame",
+    "contenido": "Flame",
+    "nivelID": 5,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Blame",
+    "contenido": "Blame",
+    "nivelID": 5,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Fame",
+    "contenido": "Fame",
+    "nivelID": 6,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Game",
+    "contenido": "Game",
+    "nivelID": 6,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Lame",
+    "contenido": "Lame",
+    "nivelID": 6,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Mane",
+    "contenido": "Mane",
+    "nivelID": 6,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Plane",
+    "contenido": "Plane",
+    "nivelID": 6,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Tame",
+    "contenido": "Tame",
+    "nivelID": 7,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Gaze",
+    "contenido": "Gaze",
+    "nivelID": 7,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Phase",
+    "contenido": "Phase",
+    "nivelID": 7,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Wave",
+    "contenido": "Wave",
+    "nivelID": 7,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Rave",
+    "contenido": "Rave",
+    "nivelID": 7,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Save",
+    "contenido": "Save",
+    "nivelID": 8,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Pave",
+    "contenido": "Pave",
+    "nivelID": 8,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Grave",
+    "contenido": "Grave",
+    "nivelID": 8,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Slave",
+    "contenido": "Slave",
+    "nivelID": 8,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Behave",
+    "contenido": "Behave",
+    "nivelID": 8,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Amaze",
+    "contenido": "Amaze",
+    "nivelID": 9,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Craze",
+    "contenido": "Craze",
+    "nivelID": 9,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Raise",
+    "contenido": "Raise",
+    "nivelID": 9,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Praise",
+    "contenido": "Praise",
+    "nivelID": 9,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Daze",
+    "contenido": "Daze",
+    "nivelID": 9,
+    "tipoID": 2
+  },
+  {
+    "nombre": "Cry",
+    "contenido": "Cry",
+    "nivelID": 1,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Fly",
+    "contenido": "Fly",
+    "nivelID": 1,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Dry",
+    "contenido": "Dry",
+    "nivelID": 1,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Try",
+    "contenido": "Try",
+    "nivelID": 1,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Pry",
+    "contenido": "Pry",
+    "nivelID": 1,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Shy",
+    "contenido": "Shy",
+    "nivelID": 2,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Sly",
+    "contenido": "Sly",
+    "nivelID": 2,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Fry",
+    "contenido": "Fry",
+    "nivelID": 2,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Spy",
+    "contenido": "Spy",
+    "nivelID": 2,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Sky",
+    "contenido": "Sky",
+    "nivelID": 2,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Apply",
+    "contenido": "Apply",
+    "nivelID": 3,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Deny",
+    "contenido": "Deny",
+    "nivelID": 3,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Reply",
+    "contenido": "Reply",
+    "nivelID": 3,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Comply",
+    "contenido": "Comply",
+    "nivelID": 3,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Decry",
+    "contenido": "Decry",
+    "nivelID": 3,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Modify",
+    "contenido": "Modify",
+    "nivelID": 4,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Terrify",
+    "contenido": "Terrify",
+    "nivelID": 4,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Clarify",
+    "contenido": "Clarify",
+    "nivelID": 4,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Magnify",
+    "contenido": "Magnify",
+    "nivelID": 4,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Specify",
+    "contenido": "Specify",
+    "nivelID": 4,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Multiply",
+    "contenido": "Multiply",
+    "nivelID": 5,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Testify",
+    "contenido": "Testify",
+    "nivelID": 5,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Simplify",
+    "contenido": "Simplify",
+    "nivelID": 5,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Identify",
+    "contenido": "Identify",
+    "nivelID": 5,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Amplify",
+    "contenido": "Amplify",
+    "nivelID": 5,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Intensify",
+    "contenido": "Intensify",
+    "nivelID": 6,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Justify",
+    "contenido": "Justify",
+    "nivelID": 6,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Diversify",
+    "contenido": "Diversify",
+    "nivelID": 6,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Solidify",
+    "contenido": "Solidify",
+    "nivelID": 6,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Mystify",
+    "contenido": "Mystify",
+    "nivelID": 6,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Rectify",
+    "contenido": "Rectify",
+    "nivelID": 7,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Quantify",
+    "contenido": "Quantify",
+    "nivelID": 7,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Electrify",
+    "contenido": "Electrify",
+    "nivelID": 7,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Personify",
+    "contenido": "Personify",
+    "nivelID": 7,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Classify",
+    "contenido": "Classify",
+    "nivelID": 7,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Sanctify",
+    "contenido": "Sanctify",
+    "nivelID": 8,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Amplify",
+    "contenido": "Amplify",
+    "nivelID": 8,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Falsify",
+    "contenido": "Falsify",
+    "nivelID": 8,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Beautify",
+    "contenido": "Beautify",
+    "nivelID": 8,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Modify",
+    "contenido": "Modify",
+    "nivelID": 8,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Demystify",
+    "contenido": "Demystify",
+    "nivelID": 9,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Reidentify",
+    "contenido": "Reidentify",
+    "nivelID": 9,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Oversimplify",
+    "contenido": "Oversimplify",
+    "nivelID": 9,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Disqualify",
+    "contenido": "Disqualify",
+    "nivelID": 9,
+    "tipoID": 3
+  },
+  {
+    "nombre": "Re-certify",
+    "contenido": "Re-certify",
+    "nivelID": 9,
+    "tipoID": 3
+  }
 ]

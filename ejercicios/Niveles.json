@@ -1,38 +1,29 @@
 [
     {
-        "nivel": 1,
-        "descripcion": "Sonidos Iniciales: Palabras simples y cortas que presentan el sonido clave de manera prominente."
+        "nivel": 1
     },
     {
-        "nivel": 2,
-        "descripcion": "Aumento de Longitud: Introducción de palabras ligeramente más largas que mantienen la claridad en la pronunciación del sonido clave."
+        "nivel": 2
     },
     {
-        "nivel": 3,
-        "descripcion": "Compuestos Básicos: Uso de palabras compuestas o con prefijos/sufijos simples que afectan la pronunciación."
+        "nivel": 3
     },
     {
-        "nivel": 4,
-        "descripcion": "Introducción de Desafíos: Palabras con estructuras más complejas que pueden incluir blends de consonantes o variaciones en la silabificación."
+        "nivel": 4
     },
     {
-        "nivel": 5,
-        "descripcion": "Complejidad Media: Palabras con múltiples sílabas que requieren atención en la articulación y el ritmo."
+        "nivel": 5
     },
     {
-        "nivel": 6,
-        "descripcion": "Variaciones Avanzadas: Palabras que introducen más variaciones en los patrones de acentuación y la combinación de sonidos."
+        "nivel": 6
     },
     {
-        "nivel": 7,
-        "descripcion": "Estructuras Complicadas: Inclusión de palabras con estructuras fonéticas y ortográficas más complejas."
+        "nivel": 7
     },
     {
-        "nivel": 8,
-        "descripcion": "Dominio del Lenguaje: Palabras que desafían el dominio del sonido clave a través de contextos y usos menos comunes."
+        "nivel": 8
     },
     {
-        "nivel": 9,
-        "descripcion": "Maestría y Excepción: Palabras de alta complejidad que a menudo son excepciones a las reglas fonéticas generales o tienen usos especializados."
+        "nivel": 9
     }
 ]
