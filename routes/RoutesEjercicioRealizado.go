@@ -8,7 +8,7 @@ import (
 
 func RoutesEjercicioRealizado(e *gin.Engine) {
 	ejercicioRealizado := e.Group("/ejercicios-realizados")
-	ejercicioRealizado.POST("/crear", middleware.AdminAuthMiddleware(), controllers.CreateEjercicioRealizado)
+	ejercicioRealizado.POST("/crear", middleware.AuthMiddleware(), controllers.CreateEjercicioRealizado)
 	ejercicioRealizado.GET("/usuario/:usuario_id", middleware.AuthMiddleware(), controllers.GetEjerciciosRealizadosByUsuarioID)
 	ejercicioRealizado.GET("/obtener/:id", middleware.AuthMiddleware(), controllers.GetEjercicioRealizadoById)
 	ejercicioRealizado.PUT("/actualizar/:id", middleware.AdminAuthMiddleware(), controllers.UpdateEjercicioRealizado)

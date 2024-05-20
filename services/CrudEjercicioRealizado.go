@@ -38,9 +38,23 @@ func CreateEjercicioRealizado(db *gorm.DB, ejercicioRealizado models.EjercicioRe
 
 	if ejercicioRealizado.Aprobado {
 		usuario.Racha++
+		racha := usuario.Racha
+		valorBase := 10.0
+		factor := 1.0 + 0.2*float64(racha-1)
+		usuario.XP += int(valorBase * factor)
+
+		usuario.UltimoResultado = true
+
+		if usuario.XP >= 100 {
+			usuario.Nivel++
+			usuario.XP = 0
+		}
+
 		db.Save(&usuario)
 	} else {
-		usuario.Racha = 0
+		usuario.Racha = 1
+		usuario.UltimoResultado = false
+
 		db.Save(&usuario)
 	}
 

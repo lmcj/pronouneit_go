@@ -16,4 +16,5 @@ func RoutesUsuario(e *gin.Engine) {
 	usuario.POST("/:id/cambiar-contrasenia", middleware.AuthMiddleware(), controllers.CambioContrasenia)
 	usuario.GET("/obtener/:id/ejercicios-realizados", middleware.AuthMiddleware(), controllers.GetEjerciciosRealizadosPorUsuario)
 	usuario.POST("/crear-admin", controllers.CreateAdmin)
+	usuario.GET("/ejercicio", middleware.AuthMiddleware(), controllers.GetEjercicio)
 }

@@ -13,3 +13,11 @@ type Ejercicio struct {
 	Nivel     Nivel       `gorm:"foreignKey:NivelID"`
 	Tipo      TipoPalabra `gorm:"foreignKey:TipoID"`
 }
+
+type EjercicioDTO struct {
+	ID        uint   `json:"id"`
+	Nombre    string `json:"nombre"`
+	Contenido string `json:"contenido"`
+	Nivel     uint   `json:"nivel"`
+	Tipo      uint   `json:"tipo"`
+}

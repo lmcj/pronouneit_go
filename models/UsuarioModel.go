@@ -4,13 +4,17 @@ import "gorm.io/gorm"
 
 type Usuario struct {
 	gorm.Model
-	Nombre      string `gorm:"size:50;not null" json:"nombre"`
-	Apellido    string `gorm:"size:50;not null" json:"apellido"`
-	Correo      string `gorm:"size:50;not null;unique" json:"correo" validate:"required,email"`
-	Contrasenia string `gorm:"size:255;not null" json:"contrasenia"`
-	FotoURL     string `gorm:"size:255" json:"fotoURL"`
-	Rol         string `gorm:"size:50;not null" json:"rol"`
-	Racha       int    `gorm:"default:0" json:"racha"`
+	Nombre              string `gorm:"size:50;not null" json:"nombre"`
+	Apellido            string `gorm:"size:50;not null" json:"apellido"`
+	Correo              string `gorm:"size:50;not null;unique" json:"correo" validate:"required,email"`
+	Contrasenia         string `gorm:"size:255;not null" json:"contrasenia"`
+	FotoURL             string `gorm:"size:255" json:"fotoURL"`
+	Rol                 string `gorm:"size:50;not null" json:"rol"`
+	Racha               int    `gorm:"default:1" json:"racha"`
+	Nivel               int    `gorm:"default:1" json:"nivel"`
+	XP                  int    `gorm:"default:0" json:"xp"`
+	UltimoTipoEjercicio int    `gorm:"default:1"`
+	UltimoResultado     bool   `gorm:"default:true"`
 }
 
 type UsuarioDTO struct {

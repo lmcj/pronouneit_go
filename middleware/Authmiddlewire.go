@@ -3,6 +3,7 @@ package middleware
 import (
 	"fmt"
 	"net/http"
+	"strconv"
 	"strings"
 
 	"github.com/dgrijalva/jwt-go"
@@ -34,6 +35,25 @@ func AuthMiddleware() gin.HandlerFunc {
 			c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"error": "Invalid token"})
 			return
 		}
+
+		claims, ok := token.Claims.(jwt.MapClaims)
+		if !ok {
+			c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"error": "Invalid token claims"})
+			return
+		}
+
+		var userID string
+
+		// Intentar obtener el userID como string primero
+		if uidStr, ok := claims["id"].(string); ok {
+			userID = uidStr
+		} else if uidFloat, ok := claims["id"].(float64); ok {
+			userID = strconv.FormatFloat(uidFloat, 'f', -1, 64)
+		} else {
+			c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"error": "User ID not found in token"})
+			return
+		}
+		c.Set("userID", userID)
 
 		c.Next()
 	}

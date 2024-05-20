@@ -197,3 +197,29 @@ func GetEjerciciosRealizadosPorUsuario(c *gin.Context) {
 
 	c.JSON(200, ejerciciosRealizados)
 }
+
+func GetEjercicio(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	userID, exists := c.Get("userID")
+	if !exists {
+		c.String(400, "ID de usuario inválido")
+		return
+	}
+
+	exercise, err := services.GetNextExercise(database, userID.(string))
+	if err != nil {
+		c.String(500, "Error al obtener el ejercicio")
+		return
+	}
+
+	ejercicio := models.EjercicioDTO{
+		ID:        exercise.ID,
+		Nombre:    exercise.Nombre,
+		Contenido: exercise.Contenido,
+		Nivel:     exercise.NivelID,
+		Tipo:      exercise.TipoID,
+	}
+
+	c.JSON(200, ejercicio)
+}
