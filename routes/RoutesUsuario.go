@@ -10,7 +10,7 @@ func RoutesUsuario(e *gin.Engine) {
 	usuario := e.Group("/usuarios")
 	usuario.POST("/crear", controllers.CreateUsuario)
 	usuario.GET("/listar", middleware.AdminAuthMiddleware(), controllers.GetUsuarios)
-	usuario.GET("/obtener/:id", middleware.AdminAuthMiddleware(), controllers.GetUsuarioById)
+	usuario.GET("/obtener/:id", middleware.AuthMiddleware(), controllers.GetUsuarioById)
 	usuario.PUT("/actualizar/:id", middleware.AuthMiddleware(), controllers.UpdateUsuario)
 	usuario.DELETE("/eliminar/:id", middleware.AdminAuthMiddleware(), controllers.DeleteUsuario)
 	usuario.POST("/:id/cambiar-contrasenia", middleware.AuthMiddleware(), controllers.CambioContrasenia)
