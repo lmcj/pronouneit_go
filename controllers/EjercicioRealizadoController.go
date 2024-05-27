@@ -14,6 +14,30 @@ func CreateEjercicioRealizado(c *gin.Context) {
 
 	var ejercicioRealizado models.EjercicioRealizado
 
+	userID, exists := c.Get("userID")
+
+	if !exists {
+		c.String(400, "ID de usuario inválido")
+		return
+	}
+
+	userIDStr, ok := userID.(string)
+
+	if !ok {
+		c.String(400, "ID de usuario no String")
+		return
+	}
+
+	userIDUint64, err := strconv.ParseUint(userIDStr, 10, 64)
+	if err != nil {
+		c.String(400, "Error al convertir userID a uint64:")
+		return
+	}
+
+	userIDUint := uint(userIDUint64)
+
+	ejercicioRealizado.UsuarioID = userIDUint
+
 	if err := c.BindJSON(&ejercicioRealizado); err != nil {
 		c.String(400, "Bad request")
 		return
