@@ -73,6 +73,17 @@ func GetEjerciciosRealizadosByUsuarioID(db *gorm.DB, usuarioID uint) ([]models.E
 	return ejerciciosRealizados, true
 }
 
+func GetUltimoEjercicioRealizadoByUsuarioID(db *gorm.DB, usuarioID uint) (models.EjercicioRealizado, bool) {
+	var ejercicioRealizado models.EjercicioRealizado
+	if err := db.Where("usuario_id = ?", usuarioID).Order("created_at desc").Preload("Ejercicio").First(&ejercicioRealizado).Error; err != nil {
+		log.Println("Error al obtener el último ejercicio realizado")
+		return models.EjercicioRealizado{}, false
+	}
+
+	log.Println("Último ejercicio realizado encontrado exitosamente...")
+	return ejercicioRealizado, true
+}
+
 func GetEjercicioRealizadoByID(db *gorm.DB, id uint) (models.EjercicioRealizado, bool) {
 	var ejercicioRealizado models.EjercicioRealizado
 	if err := db.Preload("Usuario").Preload("Ejercicio").First(&ejercicioRealizado, id).Error; err != nil {

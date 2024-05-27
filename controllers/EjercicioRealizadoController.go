@@ -69,6 +69,24 @@ func GetEjerciciosRealizadosByUsuarioID(c *gin.Context) {
 	c.JSON(200, ejerciciosRealizados)
 }
 
+func GetUltimoEjercicioRealizadoByUsuarioID(c *gin.Context) {
+	database := configs.ConnectToDB()
+
+	usuarioID := c.Param("usuario_id")
+	usuarioIDInt, err := strconv.Atoi(usuarioID)
+	if err != nil {
+		c.String(400, "Bad request")
+		return
+	}
+
+	ejercicioRealizado, success := services.GetUltimoEjercicioRealizadoByUsuarioID(database, uint(usuarioIDInt))
+	if !success {
+		c.String(400, "Error al obtener el último ejercicio realizado")
+		return
+	}
+	c.JSON(200, ejercicioRealizado)
+}
+
 func GetEjercicioRealizadoById(c *gin.Context) {
 	database := configs.ConnectToDB()
 
