@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"log"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
@@ -72,14 +73,31 @@ func GetEjerciciosRealizadosByUsuarioID(c *gin.Context) {
 func GetUltimoEjercicioRealizadoByUsuarioID(c *gin.Context) {
 	database := configs.ConnectToDB()
 
-	usuarioID := c.Param("usuario_id")
-	usuarioIDInt, err := strconv.Atoi(usuarioID)
-	if err != nil {
-		c.String(400, "Bad request")
+	userID, exists := c.Get("userID")
+
+	if !exists {
+		c.String(400, "ID de usuario inválido")
 		return
 	}
 
-	ejercicioRealizado, success := services.GetUltimoEjercicioRealizadoByUsuarioID(database, uint(usuarioIDInt))
+	userIDStr, ok := userID.(string)
+
+	if !ok {
+		c.String(400, "ID de usuario no String")
+		return
+	}
+
+	userIDUint64, err := strconv.ParseUint(userIDStr, 10, 64)
+	if err != nil {
+		c.String(400, "Error al convertir userID a uint64:")
+		return
+	}
+
+	userIDUint := uint(userIDUint64)
+
+	log.Println("userIDUint: ", userIDUint)
+
+	ejercicioRealizado, success := services.GetUltimoEjercicioRealizadoByUsuarioID(database, userIDUint)
 	if !success {
 		c.String(400, "Error al obtener el último ejercicio realizado")
 		return

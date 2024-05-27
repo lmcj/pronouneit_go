@@ -10,7 +10,7 @@ func RoutesEjercicioRealizado(e *gin.Engine) {
 	ejercicioRealizado := e.Group("/ejercicios-realizados")
 	ejercicioRealizado.POST("/crear", middleware.AuthMiddleware(), controllers.CreateEjercicioRealizado)
 	ejercicioRealizado.GET("/usuario/:usuario_id", middleware.AuthMiddleware(), controllers.GetEjerciciosRealizadosByUsuarioID)
-	ejercicioRealizado.GET("/usuario/:usuario_id/ultimo", middleware.AuthMiddleware(), controllers.GetUltimoEjercicioRealizadoByUsuarioID)
+	ejercicioRealizado.GET("/usuario/ultimo", middleware.AuthMiddleware(), controllers.GetUltimoEjercicioRealizadoByUsuarioID)
 	ejercicioRealizado.GET("/obtener/:id", middleware.AuthMiddleware(), controllers.GetEjercicioRealizadoById)
 	ejercicioRealizado.PUT("/actualizar/:id", middleware.AdminAuthMiddleware(), controllers.UpdateEjercicioRealizado)
 	ejercicioRealizado.DELETE("/eliminar/:id", middleware.AdminAuthMiddleware(), controllers.DeleteEjercicioRealizado)
